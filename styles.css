@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+a {
+    text-decoration: none;
+}
+
+.bar {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    z-index:2;
+}
+.l, .r {
+    color: white;
+    float: left;
+    padding-left: 5px;
+    padding-top: 8px;
+    background-color: black;
+    text-align: center;
+    width: 80px;
+    height: 27px;
+}
+.l:hover {
+    background-color: white;
+    color: black;
+}
+.r:hover {
+    background-color: #009688;
+    color: black;
+}
+.r {
+    float: right;
+    padding-right: 10px;
+    width: 60px;
+    height: 27px;
+}
+
+.fon {
+    width: 100%;
+    height: 600px;
+}
+.txtfon {
+    position: absolute;
+    margin-top: 525px;
+    font-size: 25px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 225px;
+    height: 40px;
+    padding-top: 13px;
+    z-index:1;
+}
+.txtfon:hover {
+    background-color: #009688;
+}
+.header1, .header2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.header2 {
+    font-size: 16px;
+    padding-top: 1px;
+}
+
+.team {
+    margin-top: 30px;
+    width: 375px;
+    height: 300px;
+    float: left;
+}
+.avatar {
+    margin-left: 25%;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+}
+.avatar:hover {
+    opacity: 0.5;
+}
+.name {
+    text-align: center;
+    font-size: 24px;
+}
+.position {
+    text-align: center;
+}
+.footer {
+    background-color:
+}
+.ourworck {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 70px;
+}
+
+.footter {
+    width: 100%;
+    height: 625px;
+    background-color: #333333;
+    margin-top: 405px;
+}
+.txtft {
+    width: 350px;
+    height: 500px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 15px;
+    float: left;
+}
+.txtft > p {
+    font-size: 17px;
+}
+.txtft > h2 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.blockft {
+    background-color: white;
+    float: left;
+    width: 355px;
+    height: 475px;
+    margin-left: 25px;
+    margin-top: 75px;
+}
+.blockft > img {
+    width: 355px;
+    height: 235px;
+}
+.csft {
+    padding-left: 15px;
+}
+.custumer {
+    font-size: 22px;
+}
